@@ -1,0 +1,315 @@
+\documentclass[11pt]{article}
+
+\usepackage{fullpage}
+\usepackage{amsfonts}     //// $\mathbb{z}$
+\usepackage[margin : 1in ,paperwidth :8.5in, paperheight:8.5 in]{geometry}
+\usepackage[top : 1in ,bottom:1in, left:1in , right:1in]{geometry}
+\usepackage{graphicx}
+
+\def\eq1{y=3}
+
+
+
+
+
+\begin{document} 
+$\eq1$
+\includegraphics[width = 5in]{Downloads/image.png}
+
+
+
+
+\begin{center}
+\includegraphics[scale = 5in]{Downloads/image.png}
+\end{center}
+
+
+
+
+begin{center}
+\includegraphics[angle = 5in]{Downloads/image.png}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$\mathrm{D_f}$
+\left [     \right]           /////// expands size of brackets
+$\displaystyle{\lim \limits_{x \to a}}$   ////display style expands size of all texts
+$\displaystyle{\int \sin x \, dx}$
+$\int_a^b$                           ///// integral with limit
+
+$\int \limits_a^b$       
+$\int \limits_{2a}^b$   
+
+\displaystyle{\sum \limits_{n=1}^{\infty}}$
+\cdots   ===>>>> for 3 centred dots  
+\cdot    ====>>> for 1 centered dot
+
+\delta
+\Delta
+\vec{v}    ===>>> vector v
+\langle         \rangle   =====>>>> for left and right angle bracket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nandan \\                           //// use double backslash for new line.
+$ A = x^2 +3x $                     //// use dollar for inline math expression
+solve this
+$$ A = x^2 + 3x $$                  ////  use double dollar for new line centred math expression
+
+
+
+
+superscript : $2x^3$         //// x's power 3
+			  $2x^{34}$      //// x's power 34
+			  $2x^3$4        /// x's power 3
+			  $2x^{3x+4}$     //// x's power 3x+4
+
+
+
+subscript : $$x_1$$        /// x's base 1
+			$$x_{12}$$      /// x's base 12
+
+
+
+greek letters: 
+			
+				$\pi$
+				$\alpha$
+
+
+trig functions: 
+
+			$\sin{x}$
+		
+
+log functions :  
+
+				$\log{x}$
+				$\ln{x}$
+
+
+
+
+root:
+
+		$\sqrt{2}$
+		$\sqrt[3]{2}$
+
+
+
+fractions :
+2/3
+
+$\frac{2}{3}$
+
+$\displaystyle{\frac{2}{3}}$
+$\frac{x}{3x^2$
+
+
+
+brackets :
+			$(x+1)$
+			$2[3+(x+1)]$
+			$$\{x+1\}$$
+
+dollar: 			
+			$$\$12.5$$
+
+
+
+
+
+
+
+
+
+tables : 
+\begin{tabular}{|c|c|c|c|c|c|}
+	\hline
+	$x$ & 1 & 2 & 3 & 4 & 5 // \hline
+	$f(x)$ & 1 & 2 & 3 & 4 & 5// \hline
+\end{tabular}
+
+
+
+
+
+
+
+
+
+
+
+
+array :                                ////// when use equation array we are in math mode automatically . no need of dollar sign again and again 
+
+
+\begin{eqnarray}
+	x^2 + 3 = 0 \\
+	x+2 = 0 \\
+	x\approx\pm1.732\\
+\end{eqnarray}
+
+=====>> u can use eqnarray* also in place of eqnarray
+
+
+
+
+
+
+
+
+
+
+
+
+
+lists:
+
+	\begin{enumerate}
+		\item pen
+		\item pencil
+			\begin{enumerate}
+				\item h1pencil
+				\item h2pencil
+					\begin{enumerate}
+						\item h2a
+						\item h2b
+					\end{enumerate}
+			\end{enumerate}
+		\item book
+		\item notes
+	\end{enumerate}
+
+
+======>>>>> in place of enumerate u can use itemize for different symbols.
+======>>>> enumerate is used for different numbering system
+====>>> \item[associative]
+		\item[distributive]
+
+
+
+
+
+
+
+
+
+
+text and document formatting : 
+		\textit{text_to italic}
+		\textbf{text_to_be_bold}
+		\textsc{for_small_caps}
+		\texttt{typewriter_font}
+
+
+		\begin{large}
+			text here
+		\end{large}
+
+
+
+
+		\begin{Large}
+			text here
+		\end{Large}
+
+
+
+		\begin{huge}
+			text here
+		\end{huge}
+
+
+
+		\begin{Huge}
+			text here
+		\end{Huge}
+
+
+
+		\begin{small}
+			text here
+		\end{small}
+
+
+		\begin{tiny}
+			text here
+		\end{tiny}
+
+
+		\begin{center}
+			text here
+		\end{center}
+
+
+
+		\begin{flushleft}
+			text here
+		\end{flushleft}
+
+
+		\begin{flushright}
+			text here
+		\end{flushright}
+
+
+
+
+
+
+
+\title{the \LaTeX \ document}
+\author{Nandan}
+\date{\today}
+\maketitle
+
+
+
+
+
+\section{Linear Fuction}
+	\subsection{Slope}
+	helo . formula of slope is mc2
+	\Subsection{Slope again}
+
+
+\section{Quadartic Function}
+ 	\subsection{eqution}
+ 	\subsection{equation again}
+
+
+
+
+
+
+
+\end{document}
